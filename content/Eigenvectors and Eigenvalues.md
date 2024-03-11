@@ -14,7 +14,9 @@ Multiplying $\lambda$ by the [[Identity Matrix]] allows for subtracting with the
 ### Example
 
 $$A=\begin{bmatrix}1 & 6 \\ 5 & 2\end{bmatrix},\:\vec{x}=\begin{bmatrix}x_1 \\ x_2\end{bmatrix},\:A\vec{x}=7\vec{x}$$
+
 Is 7 an eigenvalue of $A$? Or: is there a vector $\vec{x}$ such that the equation is satisfied?
+
 $$\begin{bmatrix}1 & 6 \\ 5 & 2\end{bmatrix}\begin{bmatrix}x_1 \\ x_2\end{bmatrix}=\begin{bmatrix}7x_1 \\ 7x_2\end{bmatrix}$$
 
 $$
@@ -32,8 +34,22 @@ Therefore, any scalar multiple of $\begin{bmatrix}1 \\ 1\end{bmatrix}$ is an eig
 
 ### Example
 
-let:
-$$A=\begin{bmatrix}3 & -2 \\ 1 & 0\end{bmatrix},\:\vec{v}=\begin{bmatrix}2 \\ 1\end{bmatrix}$$$$A\cdot\vec{v}=\begin{bmatrix}4 \\ 2\end{bmatrix}=2\cdot\vec{v}$$
+Let:
+
+$$
+\begin{bmatrix}
+3 & -2 \\
+1 & 0
+\end{bmatrix},\:\vec{v}=\begin{bmatrix}2 \\ 1\end{bmatrix}
+$$
+
+$$
+A\cdot\vec{v}=\begin{bmatrix}4 \\ 2\end{bmatrix}=2\cdot\vec{v}
+$$
+
 This result is specific to this vector.
 
 let: $$\vec{u}=\begin{bmatrix}-1 \\ 1\end{bmatrix}\Rightarrow A\cdot\vec{u}=\begin{bmatrix}-5 \\ -1\end{bmatrix}$$ which is not a multiple of $\vec{u}$
+
+$$
+$$
