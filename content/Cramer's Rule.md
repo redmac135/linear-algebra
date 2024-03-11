@@ -12,4 +12,5 @@ $$\det{A}=\begin{vmatrix}3 & -2\\-5 & 4\end{vmatrix}=12-10=2$$
 $$\det{A_1(\vec{b})}=\begin{vmatrix}6 & -2 \\ 8 & 4\end{vmatrix}=40$$
 $$\det{A_2(\vec{b})}=\begin{vmatrix}3 & 6 \\ -5 & 8\end{vmatrix}=54$$
 Thus,
-$$x_{1}=\frac{40}{2}=20$$$$x_{2}=\frac{54}{2}=27$$
+$$x_{1}=\frac{40}{2}=20$$
+$$x_{2}=\frac{54}{2}=27$$

@@ -15,7 +15,8 @@ $$\mathrm{rank}(A)+\dim{\mathrm{Nul}(A)}=\mathrm{number\:of\:columns\:in\:A}$$
 
 ## Example
 
-Find a matrix $A$ such that $$\set{\begin{bmatrix}b-c \\ 2b+c+d \\ 5c-4d \\ d\end{bmatrix},\:b,c,d\in\mathbb{R}}$$$$\begin{bmatrix}b-c \\ 2b+c+d \\ 5c-4d \\ d\end{bmatrix}=b\begin{bmatrix}1 \\ 2 \\ 0 \\ 0\end{bmatrix}+c\begin{bmatrix}-1 \\ 1 \\ 5 \\ 0\end{bmatrix}+d\begin{bmatrix}0 \\ 1 \\ -4 \\ 1\end{bmatrix}$$
+Find a matrix $A$ such that $$\set{\begin{bmatrix}b-c \\ 2b+c+d \\ 5c-4d \\ d\end{bmatrix},\:b,c,d\in\mathbb{R}}$$
+$$\begin{bmatrix}b-c \\ 2b+c+d \\ 5c-4d \\ d\end{bmatrix}=b\begin{bmatrix}1 \\ 2 \\ 0 \\ 0\end{bmatrix}+c\begin{bmatrix}-1 \\ 1 \\ 5 \\ 0\end{bmatrix}+d\begin{bmatrix}0 \\ 1 \\ -4 \\ 1\end{bmatrix}$$
 As $RHS$ represents the solution set as a linear combination of 3 vectors, these vectors can simply be the columns of the desired matrix $A$.
 $$A=\begin{bmatrix}1 & -1 & 0 \\ 2 & 1 & 1 \\ 0 & 5 & -4 \\ 0 & 0 & 1\end{bmatrix}$$
 
