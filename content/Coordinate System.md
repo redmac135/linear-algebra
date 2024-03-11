@@ -46,7 +46,8 @@ This matrix $A$ is commonly called $P_B$.
 
 _continuing example from [[#Example]]_
 $$P_B=\begin{bmatrix}1 & 3 \\ 2 & 0\end{bmatrix}$$
-computing the [[Matrix Inverse]] yields $$P_B^{-1}=\begin{bmatrix}0 & \frac{1}{2} \\ \frac{1}{3} & \frac{-1}{6}\end{bmatrix}$$ $$\vec{x}=\begin{bmatrix}7 \\ -3\end{bmatrix}\Rightarrow\begin{bmatrix}\vec{x}\end{bmatrix}_B=P_B^{-1}\cdot\vec{x}=\begin{bmatrix}0 & \frac{1}{2} \\ \frac{1}{3} & \frac{-1}{6}\end{bmatrix}\cdot\begin{bmatrix}7 \\ -3\end{bmatrix}$$$$\begin{bmatrix}\vec{x}\end{bmatrix}_{B}=\begin{bmatrix}\frac{-3}{2} \\ \frac{{17}}{{6}}\end{bmatrix}$$
+computing the [[Matrix Inverse]] yields $$P_B^{-1}=\begin{bmatrix}0 & \frac{1}{2} \\ \frac{1}{3} & \frac{-1}{6}\end{bmatrix}$$ $$\vec{x}=\begin{bmatrix}7 \\ -3\end{bmatrix}\Rightarrow\begin{bmatrix}\vec{x}\end{bmatrix}_B=P_B^{-1}\cdot\vec{x}=\begin{bmatrix}0 & \frac{1}{2} \\ \frac{1}{3} & \frac{-1}{6}\end{bmatrix}\cdot\begin{bmatrix}7 \\ -3\end{bmatrix}$$
+$$\begin{bmatrix}\vec{x}\end{bmatrix}_{B}=\begin{bmatrix}\frac{-3}{2} \\ \frac{{17}}{{6}}\end{bmatrix}$$
 
 ## Concluding Example
 
